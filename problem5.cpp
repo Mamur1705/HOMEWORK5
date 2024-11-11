@@ -4,7 +4,7 @@ int main() {
     string s;
     getline(cin, s);
     int up_c = 0, l_c = 0;
-    string upperChars = "", lowerChars = "";
+    string upperChars = " ", lowerChars = " ";
     for (int i = 0; i<s.length(); i++) {
         char c = s[i];
         if (c>='A' && c<='Z') {

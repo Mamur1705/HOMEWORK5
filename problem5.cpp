@@ -17,12 +17,12 @@ int main() {
     }
     cout<<up_c;
     if (up_c>0) {
-        cout<<" "<<upperChars;
+        cout<<" "<<upperChars<<" ";
     }
     cout<<endl;
     cout<<l_c;
     if (l_c>0) {
-        cout<<" "<<lowerChars;
+        cout<<" "<<lowerChars<<" ";
     }
     cout<<endl;
     return 0;
